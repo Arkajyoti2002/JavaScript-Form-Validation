@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url('background.jpg');
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+.input-field{
+    width: 300px;
+}
+
+label{
+    font-size: 20px;
+}
+/*Disable the Increase/Decrease arrows from Phone No. field*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; /*for Chrome and Safari*/
+    -moz-appearance: none; /*for Firefox*/
+    appearance: none;
+    margin: 0; 
+}
+
+form{
+    border: 2px solid grey;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: whitesmoke;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
